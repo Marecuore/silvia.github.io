@@ -1,0 +1,172 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #ffbfdc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #ffbfdc;
+  }
+  
+  /* Estilos para la sección de educación */
+  .edu-title {
+    background-color: #ffbfdc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .edu-item {
+    margin-bottom: 10px;
+  }
+  
+  .edu-item:last-child {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para la sección de experiencia */
+  .exp-title {
+    background-color: #ffbfdc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .exp-item {
+    margin-bottom: 10px;
+  }
+  
+  .exp-item:last-child {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para la sección de habilidades */
+  .skills-title {
+    background-color: #ffbfdc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Estilos para los botones */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #ffbfdc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #df9fbf;
+  }
+  
+  /* Estilos para el botón "Sobre mi" */
+  .btn-important {
+    background-color: #d39cff;
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    img {
+      max-width: 80%;
+      margin: 20px auto;
+    }
+  
+    .edu-title,
+    .exp-title,
+    .skills-title {
+      font-size: 20px;
+    }
+  
+    .btn-container {
+      flex-wrap: wrap;
+    }
+  
+    .btn {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .btn-important {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+  }
+  .skills {
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .skills ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  .column {
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .column ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
